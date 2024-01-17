@@ -1,0 +1,159 @@
+
+body {
+    background-color: #e09ff5 ;}
+
+
+/*header*/
+
+.titulo-principal{font-size:4rem;
+     color: #fffd82;
+      font-family: fantasy; 
+      text-transform: capitalize;
+       position: center;
+       text-align: center;
+       border: 4px solid #731dd8;}
+
+  .introduccion  {font-size:1rem;
+    color:#160f29;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: solid;
+    text-align: left;
+    display: inline-block;
+    margin: 100px 100px 100px 100px;
+    line-height: 150%;
+    font-style: italic;
+    font-weight: 500;}
+
+  .boton { font-size: 2rem;
+    text-decoration: none;
+    color: #160f29;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #fffd82;
+    box-shadow: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: #6a8e7f 4px;
+    margin: 80px 100px 20px 100px}
+
+    
+    /*formularios*/
+    input[type=text] {
+        width: 10%;
+        padding: 6px 10px;
+        margin: 4px 0;
+        box-sizing: border-box;
+        border: 4px solid #fffd82}
+
+    input[type=email] {
+        width: 10%;
+        padding: 6px 10px;
+        margin: 4px 0;
+        box-sizing: border-box;
+        border: 4px solid #fffd82}
+      
+    textarea{
+        width: 60%;
+        height: 6rem;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 4px solid #fffd82;
+        border-radius: 4px;
+        background-color: #f8f8f8;
+        resize: none;}
+
+    .boton-formulario {
+        background-color: #fffd82;
+        font-size: 1rem;}
+/*formulario*/
+
+
+/*titulos*/
+
+h2{ font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #6a8e7f;
+    text-transform: uppercase;
+    text-align: center;
+    }
+
+
+h4{ font-size: 2rem;
+    color: #160f29;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    }
+  
+
+/*logos redes sociales*/
+ .logoinstagram {url:("imagenes/instagramlogo.png")
+    height: 3rem;
+    width: 5%}
+
+.logofacebook.logofacebook {url:"imagenes/facebook-logo-1-2.png"
+    height: 3rem;
+    width: 5%
+    }
+
+
+/*imagenes*/
+
+    .imagen-perfil { url:("imagenes/fotoperfil.jpg")
+        height: 20rem;
+        width: 20%;
+        display: inline-block 
+        }
+
+    .ugcfoto{
+         height: 20ren;
+         width: 20%;
+        padding: 5%}
+
+
+
+
+
+.lista1 {
+    display:inline-block; 
+    margin: 20px 0px 20px 600px
+}
+
+.lista2 { 
+    display:inline-block;
+    margin: 20px 50px 20px 200px
+}
+
+
+/*cards*/
+.card img{ width: 100%;
+height: 150px}
+
+.vermas {font-size: small;
+    text-decoration: none;
+     color:#160f29;}
+
+
+
+.card {width: 20% ;
+margin: 40px 80px 40px 40px;
+border-radius: 8px;
+background-color: #6a8e7f;
+box-shadow: #6a8e7f;
+box-shadow: 0px 1px 10px;
+text-align: center;
+font-size: 1rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display:inline-block}
+
+.contenedor {margin-left: 220px;}
+
+/*footer*/
+
+.link-footer{ font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: #160f29;
+    display:block;
+    font-weight: bold;
+    font-style: italic;
+}
+
