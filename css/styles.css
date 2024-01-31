@@ -1,159 +1,90 @@
 
-body {
-    background-color: #e09ff5 ;}
+*{
+    font-family: 'Kalnia', serif;}
+/*header index*/
 
+    .logo-web {
 
-/*header*/
+        width: 200px;
+        height: 200px;}
 
-.titulo-principal{font-size:4rem;
-     color: #fffd82;
-      font-family: fantasy; 
-      text-transform: capitalize;
-       position: center;
-       text-align: center;
-       border: 4px solid #731dd8;}
+/*main index*/
 
-  .introduccion  {font-size:1rem;
-    color:#160f29;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: solid;
-    text-align: left;
-    display: inline-block;
-    margin: 100px 100px 100px 100px;
-    line-height: 150%;
-    font-style: italic;
-    font-weight: 500;}
-
-  .boton { font-size: 2rem;
-    text-decoration: none;
-    color: #160f29;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+h1{
     text-align: center;
-    background-color: #fffd82;
-    box-shadow: #f8f8f8;
-    border-radius: 8px;
-    box-shadow: #6a8e7f 4px;
-    margin: 80px 100px 20px 100px}
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 
+.carousel-inner img {
     
-    /*formularios*/
-    input[type=text] {
-        width: 10%;
-        padding: 6px 10px;
-        margin: 4px 0;
-        box-sizing: border-box;
-        border: 4px solid #fffd82}
-
-    input[type=email] {
-        width: 10%;
-        padding: 6px 10px;
-        margin: 4px 0;
-        box-sizing: border-box;
-        border: 4px solid #fffd82}
-      
-    textarea{
-        width: 60%;
-        height: 6rem;
-        padding: 12px 20px;
-        box-sizing: border-box;
-        border: 4px solid #fffd82;
-        border-radius: 4px;
-        background-color: #f8f8f8;
-        resize: none;}
-
-    .boton-formulario {
-        background-color: #fffd82;
-        font-size: 1rem;}
-/*formulario*/
-
-
-/*titulos*/
-
-h2{ font-size: 3rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #6a8e7f;
-    text-transform: uppercase;
-    text-align: center;
-    }
-
-
-h4{ font-size: 2rem;
-    color: #160f29;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
-    }
-  
-
-/*logos redes sociales*/
- .logoinstagram {url:("imagenes/instagramlogo.png")
-    height: 3rem;
-    width: 5%}
-
-.logofacebook.logofacebook {url:"imagenes/facebook-logo-1-2.png"
-    height: 3rem;
-    width: 5%
-    }
-
-
-/*imagenes*/
-
-    .imagen-perfil { url:("imagenes/fotoperfil.jpg")
-        height: 20rem;
-        width: 20%;
-        display: inline-block 
-        }
-
-    .ugcfoto{
-         height: 20ren;
-         width: 20%;
-        padding: 5%}
-
-
-
-
-
-.lista1 {
-    display:inline-block; 
-    margin: 20px 0px 20px 600px
+    max-height: 700px;
 }
 
-.lista2 { 
-    display:inline-block;
-    margin: 20px 50px 20px 200px
+/*footer redes sociales*/
+
+.logoinstagram {
+
+    height: 70px;
+    width: 100px;
 }
 
+.logofacebook {
 
-/*cards*/
-.card img{ width: 100%;
-height: 150px}
-
-.vermas {font-size: small;
-    text-decoration: none;
-     color:#160f29;}
-
-
-
-.card {width: 20% ;
-margin: 40px 80px 40px 40px;
-border-radius: 8px;
-background-color: #6a8e7f;
-box-shadow: #6a8e7f;
-box-shadow: 0px 1px 10px;
-text-align: center;
-font-size: 1rem;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-display:inline-block}
-
-.contenedor {margin-left: 220px;}
-
-/*footer*/
-
-.link-footer{ font-size: 1rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: left;
-    color: #160f29;
-    display:block;
-    font-weight: bold;
-    font-style: italic;
+    height: 70px;
+    width: 70px;
 }
 
+.misredes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px ;
+}
+
+/*sobre mi page*/
+
+h2 { text-align: center;
+    padding-top: 100px;
+}
+
+.imagen-perfil {
+
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.contacto-conteiner {
+    background-color: #DAD6D6 !important;
+}
+
+/*usar para textos de más de un párrafo*/
+
+.texto{
+
+text-align: justify;
+padding: 100px 100px 100px 100px;
+    
+}
+
+.col { 
+    align-items: center;
+
+}
+
+.col { padding-left: 200px;
+ 
+}
+
+.container {
+
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.ugcfoto {
+    height: 300px;
+    width: 400px;
+}
