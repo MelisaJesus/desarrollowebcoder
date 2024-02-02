@@ -1,90 +1,80 @@
-
 *{
     font-family: 'Kalnia', serif;}
 /*header index*/
-
-    .logo-web {
-
-        width: 200px;
-        height: 200px;}
+.logo-web {
+    width: 200px;
+    height: 200px;
+    }
 
 /*main index*/
-
 h1{
     text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
 .carousel-inner img {
-    
     max-height: 700px;
-}
+    }
 
 /*footer redes sociales*/
-
 .logoinstagram {
-
     height: 70px;
     width: 100px;
-}
-
+    }
 .logofacebook {
-
     height: 70px;
     width: 70px;
-}
-
+    }
 .misredes {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 100px ;
-}
+    }
 
 /*sobre mi page*/
 
-h2 { text-align: center;
+h2 { 
+    text-align: center;
     padding-top: 100px;
-}
-
+    }
 .imagen-perfil {
-
     max-height: 500px;
     max-width: 500px;
-}
-
+    }
 .contacto-conteiner {
     background-color: #DAD6D6 !important;
-}
+    }
 
 /*usar para textos de más de un párrafo*/
-
 .texto{
-
-text-align: justify;
-padding: 100px 100px 100px 100px;
-    
-}
+    text-align: justify;
+    padding: 100px 100px 100px 100px;
+    }
 
 .col { 
     align-items: center;
+    }
 
-}
-
-.col { padding-left: 200px;
- 
-}
+.col { 
+    padding-left: 200px;
+    }
 
 .container {
-
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-
-}
+    }
 
 .ugcfoto {
     height: 300px;
     width: 400px;
+    }
+
+@media (min-width: 320px) and (max-width: 480px) {
+.logofacebook {
+
+height: 30px;
+width: 30px;
+}
 }
