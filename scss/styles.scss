@@ -1,0 +1,90 @@
+@import "./base/variables";
+@import "./base/listas"
+*{
+    font-family: 'Kalnia', serif;}
+/*header index*/
+.logo-web {
+    width: 200px;
+    height: 200px;
+    }
+
+/*titulo principal*/
+h1{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+
+ /*index*/   
+.carousel-inner img {
+    max-height: 700px;
+
+    }
+
+/*footer redes sociales*/
+.logoinstagram {
+    height: 70px;
+    width: 100px;
+    }
+.logofacebook {
+    height: 70px;
+    width: 70px;
+    }
+.misredes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px ;
+    }
+
+/*titulo secundario*/
+h2 { 
+    text-align: center;
+    padding-top: 100px;
+}
+h3{ 
+    font-size: 2 rem;
+}
+
+h4{
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+/*sobre mi page*/
+
+.imagen-perfil {
+    max-height: 500px;
+
+    max-width: 500px;
+    }
+.contacto-conteiner {
+    background-color: #DAD6D6 !important;
+    }
+
+/*que es ugc page*/
+.texto{
+    text-align: justify;
+    padding: 100px 100px 100px 100px;
+    }
+.ugcfoto {
+    height: 300px;
+    width: 400px;
+    }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .logofacebook {
+        height: 30px;
+        width: 30px;
+    }
+    .logoinstagram {
+        height: 30px;
+        width: 30px;
+    }
+    .imagen-perfil {
+        height: 250px;
+        width: 250px;
+    }
+}
+    
+
