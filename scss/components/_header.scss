@@ -1,0 +1,19 @@
+nav {
+    div { 
+        background-color: $color-primario;
+     
+        ul {
+            li {
+                font-weight: bold;
+                font-size: 1rem;
+                ;
+
+                &:hover {
+
+                    transform: scale(1.1);
+                    
+                }
+            }
+        }
+    }
+}
