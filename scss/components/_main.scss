@@ -1,0 +1,28 @@
+main {
+
+    margin: 10px 10px 10px 10px;
+
+    
+
+        h1{
+        text-align: center;
+        font-size: 4rem;
+        color: nth($coloresdelapagina,3 );
+        text-shadow: -0.0075em 0.0075em 0 mix(#fff,$color-principal , 94%),
+		0.005em 0.005em 0 mix(#fff,$color-principal, 60%),
+		0.01em 0.01em 0 mix(#fff,$color-principal, 62%), 
+		0.015em 0.015em mix(#fff, $color-principal, 64%), 
+		0.02em 0.02em 0 mix(#fff,$color-principal, 66%), 
+		0.025em 0.025em 0 mix(#fff,$color-principal, 68%),
+		0.03em 0.03em 0 mix(#fff,$color-principal, 70%),
+		0.035em 0.035em 0 mix(#fff,$color-principal, 72%);
+        background-color: nth($coloresdelapagina, 4 );
+        }
+
+        h2 { 
+            text-align: center;
+            padding-top: 100px;
+        }
+        
+       
+}

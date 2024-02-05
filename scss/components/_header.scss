@@ -1,6 +1,11 @@
 nav {
     div { 
-        background-color: $color-primario;
+        background-color: $color-principal;
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
      
         ul {
             li {
