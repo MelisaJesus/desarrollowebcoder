@@ -1,0 +1,35 @@
+.container{
+    align-items: center;
+    padding-top: 5rem;
+
+    .card {
+        border-color: $color-principal;
+        transition: 1s;
+
+        &:hover{
+            transform: scale(1.1);
+        }
+
+        img {
+            width: 510px;
+            height: 250px;
+            align-items: center;
+        }
+
+        .card-body {
+            color: nth($coloresdelapagina, 5 );
+            text-align: center;
+
+            .btn-primary {
+                @extend %botones
+            }
+    
+        }
+
+    }
+
+
+}
+
+
+

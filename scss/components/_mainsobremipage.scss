@@ -1,8 +1,16 @@
 .imagen-perfil {
-    max-height: 500px;
+    height: 350px;
+    width: 350px;
+    
+    }
 
-    max-width: 500px;
-    }
-.contacto-conteiner {
-    background-color: #DAD6D6 !important;
-    }
+   .col {
+    display: flex;
+    justify-content: center;
+} 
+
+.contacto-container {
+    margin: 2rem*4 ;
+    border: dotted 0.5rem;
+border-color:nth($coloresdelapagina , 4);
+}

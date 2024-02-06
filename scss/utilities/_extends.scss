@@ -1,1 +1,23 @@
-//se usa el porcentaje para armar una capsula q se puede reutilizar
+%texto {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+    color: nth($coloresdelapagina,3 )
+    
+}
+
+%botones {
+    background-color: $color-principal;
+    border: solid 3px;
+    border-radius: 0.5rem;
+    color: nth($coloresdelapagina ,3);
+    text-decoration: none;
+    transition: 1s;
+    
+    &:hover{
+        
+        background-color:nth($coloresdelapagina, 2) ;
+        transform: scale(1.1);
+    }    
+    
+}

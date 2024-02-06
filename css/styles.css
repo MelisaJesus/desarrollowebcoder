@@ -25,7 +25,8 @@ main h1 {
 }
 main h2 {
   text-align: center;
-  padding-top: 100px;
+  font-size: 2rem;
+  color: #0FA3B1;
 }
 
 .misredes {
@@ -59,25 +60,47 @@ h4 {
   max-height: 700px;
 }
 
-.texto {
-  text-align: justify;
-  padding: 100px 100px 100px 100px;
-}
-
 .ugcfoto {
   height: 300px;
   width: 400px;
 }
 
 .imagen-perfil {
-  max-height: 500px;
-  max-width: 500px;
+  height: 350px;
+  width: 350px;
 }
 
-.contacto-conteiner {
-  background-color: #DAD6D6 !important;
+.col {
+  display: flex;
+  justify-content: center;
 }
 
+.contacto-container {
+  margin: 8rem;
+  border: dotted 0.5rem;
+  border-color: #CAD49D;
+}
+
+.container {
+  align-items: center;
+  padding-top: 5rem;
+}
+.container .card {
+  border-color: #CEB0E1;
+  transition: 1s;
+}
+.container .card:hover {
+  transform: scale(1.1);
+}
+.container .card img {
+  width: 510px;
+  height: 250px;
+  align-items: center;
+}
+.container .card .card-body {
+  color: #F39237;
+  text-align: center;
+}
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .logofacebook {
     height: 30px;
@@ -91,7 +114,31 @@ h4 {
     height: 250px;
     width: 250px;
   }
+  img {
+    height: 50%;
+    width: 50%;
+  }
 }
+p {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #2C363F;
+}
+
+.container .card .card-body .btn-primary {
+  background-color: #CEB0E1;
+  border: solid 3px;
+  border-radius: 0.5rem;
+  color: #2C363F;
+  text-decoration: none;
+  transition: 1s;
+}
+.container .card .card-body .btn-primary:hover {
+  background-color: #0FA3B1;
+  transform: scale(1.1);
+}
+
 * {
   font-family: "Kalnia", serif;
 }
