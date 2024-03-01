@@ -5,33 +5,10 @@
     padding-top: 5rem;
 
     .card {
-        border-color: $color-principal;
-        transition: 1s;
-
-        &:hover{
-            transform: scale(1.1);
+        @extend %cards;
+        
         }
-
-        img {
-            width: 400px;
-            height: 230px;
-            
-        }
-
-        .card-body {
-            color: nth($coloresdelapagina, 5 );
-            text-align: center;
-            display: flex;
-
-            .btn-primary {
-                @extend %botones;
-            }
-    
-        }
-
-    }
-
-
+       
 }
 
 

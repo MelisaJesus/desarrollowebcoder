@@ -5,9 +5,16 @@ nav {
     div { 
         background-color: $color-principal;
 
-        img {
+        .logo-web {
             width: 200px;
             height: 200px;
+            
+            &:hover {
+                transform: scale(1.1);
+                transition: 1s;
+
+            }
+
         }
      
         ul {
@@ -19,6 +26,7 @@ nav {
                 &:hover {
 
                     transform: scale(1.1);
+                    transition: 1s;
                     
                 }
             }

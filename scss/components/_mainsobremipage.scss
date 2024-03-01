@@ -2,7 +2,7 @@
 //pagina sobre mi
 
 .imagen-perfil {
-    height: 350px;
+    height: 500px;
     width: 350px;
 }
 
@@ -13,7 +13,8 @@
 
 //formulario contacto
 .contacto-container {
-    margin: 2rem*4 ;
+    justify-content: center;
+    margin: 1rem*4 ;
     border: dotted 0.5rem;
     border-color:nth($coloresdelapagina , 4);
 

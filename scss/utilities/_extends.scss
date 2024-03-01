@@ -1,8 +1,11 @@
 %texto {
-    text-align: center;
-    font-weight: 700;
+    text-align:justify;
+    line-height: 2rem;
+    font-weight: 500;
     font-size: 1rem;
     color: nth($coloresdelapagina,3 )
+    
+   
     
 }
 
@@ -13,6 +16,7 @@
     color: nth($coloresdelapagina ,3);
     text-decoration: none;
     transition: 1s;
+
     
     &:hover{
         
@@ -21,3 +25,31 @@
     }    
     
 }
+
+%cards {
+    border-color: $color-principal;
+    transition: 1s;
+    align-items: center;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+
+    .card-img-top {
+        width: 400px;
+        height: 230px;  
+    }
+
+    .card-body {
+        color: nth($coloresdelapagina, 5 );
+        text-align: center;
+
+        .btn-primary {
+            @extend %botones;
+        }
+
+    }
+
+}
+
+
