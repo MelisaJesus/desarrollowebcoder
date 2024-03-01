@@ -16,4 +16,9 @@
     margin: 2rem*4 ;
     border: dotted 0.5rem;
     border-color:nth($coloresdelapagina , 4);
+
+    .btn-primary {
+        @extend %botones;
+        
+    }
 }

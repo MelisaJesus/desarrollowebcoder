@@ -13,17 +13,18 @@
         }
 
         img {
-            width: 510px;
-            height: 250px;
-            align-items: center;
+            width: 400px;
+            height: 230px;
+            
         }
 
         .card-body {
             color: nth($coloresdelapagina, 5 );
             text-align: center;
+            display: flex;
 
             .btn-primary {
-                @extend %botones
+                @extend %botones;
             }
     
         }

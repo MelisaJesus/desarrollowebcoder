@@ -1,5 +1,15 @@
 
 //texto 
-.p {
-    @extend %texto;
+
+
+.card-body {
+
+    border: 0.5rem;
+    border-color: $color-principal;
+
+    .p {
+        @extend %texto;
+    }
+
+
 }
